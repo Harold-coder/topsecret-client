@@ -25,6 +25,9 @@ function App(props) {
       })
       setCards(cards);
     });
+    if (resp){
+      console.log("Success!");
+    }
   }
 
   useEffect(()=>{
