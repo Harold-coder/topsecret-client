@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-app{
+  text-align: center;
+}
+
+.title{
+  color: rgb(52, 114, 223);
+  text-shadow: 0.15rem 0.15rem white;
+  font-size: 4rem;
+}
+
+/* Card */
+.cards{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+/* CARD 2 */
+
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 40rem;
+  width: 90%;
+}
+.picture{
+  height: 35%;
+  width: 25%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.article{
+  width: 37%;
+  height: 100%;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 1.5rem;
+}
+/* #left{
+  border-right: 2px solid;
+  border-left: 2px solid;
+} */
+.title-article{
+  font-size: 1.5rem;
+  margin: 0;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  word-wrap: break-word;
+}
+.content{
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  width: 95%;
+  height: 50%;
+  font-size: 1.3rem;
+  word-wrap: break-word;
+}
+.delete-button{
+  background-color: rgb(176, 24, 24);
+  color: aliceblue;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+  height: 3rem;
+  width: 6rem;
+  cursor: pointer;
+}
