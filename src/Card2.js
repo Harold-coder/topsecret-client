@@ -8,18 +8,18 @@ export default function Card2(props) {
         });
     }
 
+    var typeToColor = {
+        news: "blue",
+        funFact: "orange"
+    }
+
     return (
-        <div className="box">
-            <img className="picture" src={require("./images/"+props.picture)} alt="pic"></img>
-            <div className="article" id="left">
-                <h1 className="title-article">{props.newTitle}</h1>
-                <p className="content">{props.newContent}</p>
-            </div>
+        <div className="box" id={typeToColor[props.type]}>
             <div className="article">
-                <h1 className="title-article">{props.oldTitle}</h1>
-                <p className="content">{props.oldContent}</p>
+                <h1 className="title-article" id="topic">Topic: {props.topic}</h1>
+                <p className="content">{props.funFact}</p>
+                <button className="delete-button" onClick={deletePost}>DELETE</button>
             </div>
-            <button className="delete-button" onClick={deletePost}>DELETE</button>
         </div>
     )
 }

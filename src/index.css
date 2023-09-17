@@ -22,7 +22,6 @@ code {
   font-size: 4rem;
 }
 
-/* Card */
 .cards{
   display: flex;
   flex-direction: column;
@@ -30,12 +29,41 @@ code {
   margin-top: 2rem;
 }
 
-/* CARD 2 */
+.toggle-button{
+  background-color: beige;
+  width: 10rem;
+  height: 4rem;
+  margin-bottom: -2rem;
+  font-size: 1.2rem;
+  border: 1px solid rgb(156, 156, 135);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#blue{
+  background-color: rgb(130, 67, 217);
+}
+#orange{
+  background-color: orange;
+}
+#topic{
+  color: white;
+}
+.type{
+  background-color: black;
+  color: white;
+  border: 1px solid beige;
+  border-radius: 10px;
+  width: 10rem;
+  height: 3rem;
+  padding-top: 1rem;
+  margin: auto;
+}
 
 .box{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem;
